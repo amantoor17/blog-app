@@ -33,6 +33,7 @@ function App() {
   return(
     <Routes>
       <Route path='/' element= {<Home/>} />
+      <Route path='/blog-app' element= {<Home/>} />
       <Route path='/blog/:blogId' element= {<BlogPage/>} />
       <Route path='/tags/:tag' element= {<TagPage/>} />
       <Route path='/categories/:category' element= {<CategoryPage/>} />
